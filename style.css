@@ -74,19 +74,20 @@ body {
     align-items: center;
     width: 800px;
     height: 30px;
+    margin-left: 2%;
 }
 .text p {
     color: #7280A7;
-    letter-spacing: 5px;
-    padding-left: 45px;
+    letter-spacing: 3px;
+    padding-left: 1em;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 600;
-}
-p {
     display: inline;
     font-size: 2.5em;
     margin-top: 0;
+    margin-left: 2%;
 }
+
 @media screen and (max-width:768px) {
     .container {
         width: 500px;
@@ -95,7 +96,7 @@ p {
     }
 
     #ramadhan {
-        margin-left: 200px;
+        padding-left: 50%;
     }
 
     .timer {
@@ -127,6 +128,47 @@ p {
         display: inline;
         font-size: 2em;
         margin-top: 0;
+    }
+}
+@media screen and (max-width:450px) {
+    .container {
+        width: 80%;
+        height: 0;
+        margin-top: 70%;
+    }
+    #ramadhan {
+        font-size: 5rem;
+        padding-left: 30%;
+    }
+    .timer {
+        width: 90%;
+        margin-left: 2%;
+        margin-right: 15%;
+    }
+    #days, #hours, #mins, #secs {
+        height: 50px;
+        width: 50px;
+        font-size: 2em;
+        text-align: center;
+        padding-right: 10%;
+        margin-left: 10%;
+    }
+    .text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1em;
+        height: 30px;
+        margin-left: -100%;
+        margin-right: 2%;
+        margin-top: 2px;
+    }
+    .text p{
+        display: inline;
+        font-size: 1em;
+        margin-top: 0;
+        padding-left: 2.5em;
+        margin-left: 5%;
     }
 }
 
