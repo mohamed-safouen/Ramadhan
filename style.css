@@ -28,16 +28,16 @@ body {
     font-size: 10rem;
     letter-spacing: 5px;
     word-spacing: 5px;
-    color: white;
-    animation:colorchange 5s ease-in 1s infinite ;
+    color: lightyellow;
+    animation:colorchange 10s ease-in 1s infinite ;
     transition: transform 2s;
     margin-top: 10%;
     padding-bottom: 90px;
 }
  @keyframes colorchange {
-     from {color: white;}
-     to{color: lightyellow; filter: contrast(600%) drop-shadow(10px 10px 10px lightcyan);
-         transform: scale(1.5)}
+     0% {color: lightyellow;}
+     50%{color: #e8e3c2; filter: brightness(800%) contrast(600%) drop-shadow(20px 20px 20px lightgray);
+         transform: scale(1.5);font-weight:1500}
  }
 .time {
     display: flex;

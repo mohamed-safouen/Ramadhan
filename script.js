@@ -17,4 +17,6 @@ let ramadhan = new Date("april 03, 2022 18:47:52").getTime();
 
     }
 })
-
+let audio=new Audio("media/ramadhan.mp3");
+ audio.play();
+ audio.loop=true;
