@@ -29,13 +29,15 @@ body {
     letter-spacing: 5px;
     word-spacing: 5px;
     color: white;
-    animation:colorchange 1s ease-in 6s infinite ;
+    animation:colorchange 5s ease-in 1s infinite ;
+    transition: transform 2s;
     margin-top: 10%;
     padding-bottom: 90px;
 }
  @keyframes colorchange {
      from {color: white;}
-     to{color: lightyellow; filter: contrast(300%) drop-shadow(5px 5px 5px lightcyan) }
+     to{color: lightyellow; filter: contrast(600%) drop-shadow(10px 10px 10px lightcyan);
+         transform: scale(1.5)}
  }
 .time {
     display: flex;
@@ -117,7 +119,7 @@ p {
         align-items: center;
         width: 700px;
         height: 30px;
-        margin-left: 70%;
+        margin-left: 60%;
         margin-right: 2%;
         margin-top: 20px;
     }
