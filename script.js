@@ -14,7 +14,7 @@ let ramadhan = new Date("april 03, 2022 18:47:52").getTime();
     }
     else{
        document.getElementById("ramadhan").innerHTML="رمضان كريم";
-
+       ramadhan += 30585600000;
     }
 })
 let audio=new Audio("media/ramadhan.mp3");
