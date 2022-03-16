@@ -7,16 +7,13 @@ let ramadhan = new Date("april 03, 2022 18:47:52").getTime();
        let hours = Math.floor((Diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
        let minutes = Math.floor((Diff % (1000 * 60 * 60)) / (1000 * 60));
        let seconds = Math.floor((Diff % (1000 * 60)) / 1000);
-       document.getElementById("days").innerHTML = days + "d";
-       document.getElementById("hours").innerHTML = hours + "h";
-       document.getElementById("mins").innerHTML = minutes + "m";
-       document.getElementById("secs").innerHTML = seconds + "s";
+       document.getElementById("days").innerHTML = days + "";
+       document.getElementById("hours").innerHTML = hours + "";
+       document.getElementById("mins").innerHTML = minutes + "";
+       document.getElementById("secs").innerHTML = seconds + "";
     }
     else{
        document.getElementById("ramadhan").innerHTML="رمضان كريم";
        ramadhan += 30585600000;
     }
 })
-let audio=new Audio("media/ramadhan.mp3");
- audio.play();
- audio.loop=true;
