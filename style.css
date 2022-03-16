@@ -141,7 +141,7 @@ body {
     }
     .timer {
         width: 110%;
-        margin-left: 60%;
+        margin-left: 78%;
         margin-right: 30%;
     }
     #days, #hours, #mins, #secs {
@@ -156,9 +156,9 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 4em;
+        width: 3em;
         height: 30px;
-        margin-left: -127%;
+        margin-left: -113%;
         margin-right: 5%;
         margin-top: 2px;
         padding-left: 5%;
