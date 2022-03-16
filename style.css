@@ -9,8 +9,9 @@ html {
 }
 body {
     background-image:url("ramadan.jpg") ;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: repeat;
+    background-attachment: fixed;
     overflow-y: hidden;
     overflow-x: hidden;
 }
@@ -107,8 +108,8 @@ audio{
 
     .timer {
         width: 550px;
-        margin-left: 130px;
-        margin-right: 100px;
+        margin-left: 65%;
+        margin-right: 20%;
     }
 
     #days, #hours, #mins, #secs {
@@ -122,19 +123,15 @@ audio{
 
     .text {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         width: 700px;
         height: 30px;
-        margin-left: 60%;
+        margin-left: 42%;
         margin-right: 2%;
         margin-top: 20px;
     }
-    p{
-        display: inline;
-        font-size: 2em;
-        margin-top: 0;
-    }
+
 }
 @media screen and (max-width:450px) {
     .container {
@@ -147,9 +144,9 @@ audio{
         padding-left: 30%;
     }
     .timer {
-        width: 90%;
-        margin-left: 2%;
-        margin-right: 15%;
+        width:100%;
+        margin-left: 41%;
+        margin-right: 20%;
     }
     #days, #hours, #mins, #secs {
         height: 50px;
@@ -163,18 +160,19 @@ audio{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 1em;
+        width: 4.5em;
         height: 30px;
-        margin-left: -100%;
+        margin-left: -131%;
         margin-right: 2%;
         margin-top: 2px;
+        padding-left: 13%;
     }
     .text p{
         display: inline;
         font-size: 1em;
         margin-top: 0;
-        padding-left: 2.5em;
-        margin-left: 5%;
+        padding-left: 3.5em;
+        margin-left: 100%;
     }
 }
 
