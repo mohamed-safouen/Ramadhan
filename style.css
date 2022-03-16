@@ -140,9 +140,9 @@ body {
         padding-left: 30%;
     }
     .timer {
-        width:100%;
-        margin-left: 41%;
-        margin-right: 20%;
+        width: 110%;
+        margin-left: 60%;
+        margin-right: 30%;
     }
     #days, #hours, #mins, #secs {
         height: 50px;
@@ -156,18 +156,18 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 4.5em;
+        width: 4em;
         height: 30px;
-        margin-left: -131%;
-        margin-right: 2%;
+        margin-left: -127%;
+        margin-right: 5%;
         margin-top: 2px;
-        padding-left: 13%;
+        padding-left: 5%;
     }
     .text p{
         display: inline;
         font-size: 1em;
         margin-top: 0;
-        padding-left: 3.5em;
+        padding-left: 2.5em;
         margin-left: 100%;
     }
 }
