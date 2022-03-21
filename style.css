@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,6 +13,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     overflow-y: hidden;
     overflow-x: hidden;
 }
@@ -91,7 +93,12 @@ body {
     margin-top: 0;
     margin-left: -25%;
 }
+audio{
+    border: rgb(-3, 10, 48) solid 10px;
+    border-radius: 45px;
+}
 @media screen and (max-width:768px) {
+  
     .container {
         width: 500px;
         height: 0;
@@ -103,31 +110,30 @@ body {
     }
 
     .timer {
-        width: 550px;
-        margin-left: 78%;
-        margin-right: 20%;
+    margin-left: 78%;
+    margin-right: 20%;
     }
 
     #days, #hours, #mins, #secs {
-        height: 110px;
-        width: 133px;
-        font-size: 70px;
+        height: 75%;
+        font-size: 4em;
         text-align: center;
-        padding-right: 25px;
-        margin-left: 50px;
+        padding-right: 4%;
+        margin-left: 7%;
     }
 
     .text {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 700px;
-        height: 30px;
-        margin-left: 56%;
-        margin-right: 2%;
-        margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 143%;
+    margin-left: 56%;
+    margin-right: 2%;
+    margin-top: 4%;
     }
-
+    audio{
+        visibility: hidden;
+    }
 }
 @media screen and (max-width:450px) {
     .container {
@@ -140,35 +146,37 @@ body {
         padding-left: 30%;
     }
     .timer {
-        width: 110%;
-        margin-left: 78%;
+        width: 122%;
+        margin-left: 86%;
         margin-right: 30%;
+        padding: 0 8% 0 8%;
     }
     #days, #hours, #mins, #secs {
-        height: 50px;
-        width: 50px;
-        font-size: 2em;
+        height: 1.5em;
+        width: 1.5em;
+        font-size: 2.5em;
         text-align: center;
-        padding-right: 10%;
-        margin-left: 10%;
+        padding: 10%;
+        margin-left: 13%;
     }
     .text {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 3em;
-        height: 30px;
-        margin-left: -113%;
-        margin-right: 5%;
-        margin-top: 2px;
-        padding-left: 5%;
+    justify-content: space-between;
+    align-items: center;
+    width: 3em;
+    height: 1em;
+    margin-left: -113%;
+    margin-right: 5%;
+    margin-top: 1%;
+    padding-left: 5%;
     }
     .text p{
         display: inline;
-        font-size: 1em;
-        margin-top: 0;
-        padding-left: 2.5em;
-        margin-left: 100%;
+    font-size: 2.2em;
+    padding-left: 0.3em;
+    margin-left: 133%;
     }
+audio{
+    visibility: hidden;
 }
-
+}
