@@ -143,13 +143,12 @@ audio{
     }
     #ramadhan {
         font-size: 5rem;
-        padding-left: 30%;
     }
     .timer {
-        width: 122%;
-        margin-left: 86%;
-        margin-right: 30%;
-        padding: 0 8% 0 8%;
+        width: 133%;
+        margin-left: 96%;
+        margin-right: 28%;
+        padding: 0 6% 0 13%;
     }
     #days, #hours, #mins, #secs {
         height: 1.5em;
@@ -161,20 +160,20 @@ audio{
     }
     .text {
         display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 3em;
-    height: 1em;
-    margin-left: -113%;
-    margin-right: 5%;
-    margin-top: 1%;
-    padding-left: 5%;
+        justify-content: space-between;
+        align-items: center;
+        width: 3em;
+        height: 1em;
+        margin-left: -117%;
+        margin-right: 13%;
+        margin-top: 3%;
+        padding-left: 3%;
     }
     .text p{
         display: inline;
-    font-size: 2.2em;
-    padding-left: 0.3em;
-    margin-left: 133%;
+        font-size: 2.2em;
+        padding-left: 29%;
+        margin-left: 125%;
     }
 audio{
     visibility: hidden;
