@@ -1,4 +1,4 @@
-let ramadhan = new Date("april 03, 2022 18:47:52").getTime();
+let ramadhan = new Date("april 01, 2022 18:47:52").getTime();
  func = setInterval(function () {
     let now = new Date().getTime();
     let Diff = ramadhan - now;
