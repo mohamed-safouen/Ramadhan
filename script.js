@@ -1,4 +1,6 @@
 let ramadhan = new Date("april 01, 2022 18:47:52").getTime();
+hijri = 1443;
+document.getElementById("ramadhan").innerHTML=`رمضان${hijri}`;
  func = setInterval(function () {
     let now = new Date().getTime();
     let Diff = ramadhan - now;
@@ -13,7 +15,7 @@ let ramadhan = new Date("april 01, 2022 18:47:52").getTime();
        document.getElementById("secs").innerHTML = seconds + "";
     }
     else{
-       document.getElementById("ramadhan").innerHTML="رمضان كريم";
+       hijri++;
        ramadhan += 30585600000;
     }
 })
