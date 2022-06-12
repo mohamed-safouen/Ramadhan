@@ -9,8 +9,7 @@ html {
     max-height: fit-content;
 }
 body {
-    background-image:url("ramadan.jpg") ;
-    background-repeat: no-repeat;
+    background-color:#15133C ;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -31,11 +30,15 @@ header{
     font-family: 'Noto Nastaliq Urdu', serif;
     font-size: 7rem;
     letter-spacing: 5px;
-    color: #bfe4f5; 
+    color: #F1EEE9; 
 }
 #compte{
-    margin: 2em 1em;
-    padding: 1em 1em;
+    margin: 2em 0em;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
     
 }
 .time {
@@ -44,132 +47,72 @@ header{
     justify-content: space-evenly;
     align-items: center;
     width: 80%;
-    height: 150px;
-}
-#days, #hours, #mins, #secs {
     padding-top: 5px;
     padding-left: 25px;
     padding-right: 20px;
     border: 1px solid #34364F;
     border-radius: 45px;
-    box-shadow: 5px 0 4.5px rgba(4,23,74,255);
+    box-shadow: 5px 0 4.5px rgb(4 23 74);
     font-size: 5rem;
-    color: white;
-    font-weight:bolder ;
+    color: #F1EEE9;
+    font-weight: bolder;
     font-family: Andalus, sans-serif;
-    background-color:rgb(11,54,132);
+    background-color: #73777B;
     height: 110px;
-    margin: 20px;
 }
-.timer {
+
+.blocks {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 800px;
-    height: 150px;
-}
-.text {
-    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 700px;
-    height: 30px;
-    margin-left: -2%;
-    padding-bottom: 3%;
+    width: 25%;
+    height: auto;
 }
-.text p {
+
+.blocks p {
     letter-spacing: 3px;
-    padding-left: 5em;
-    color: white;
+    color: #EC994B;
     font-weight:bold ;
     font-family: Andalus, sans-serif;
-    display: inline;
     font-size: 2.7em;
-    margin-top: 0;
-    margin-left: -25%;
+    text-align: center; 
 }
 audio{
     border: rgb(-3, 10, 48) solid 10px;
     border-radius: 45px;
 }
 @media screen and (max-width:768px) {
-  
-    .container {
-        width: 500px;
-        height: 0;
-        margin-top: 400px;
-    }
-
-    #ramadhan {
-        padding-left: 50%;
-    }
-
-    .timer {
-    margin-left: 78%;
-    margin-right: 20%;
-    }
-
-    #days, #hours, #mins, #secs {
-        height: 75%;
-        font-size: 4em;
-        text-align: center;
-        padding-right: 4%;
-        margin-left: 7%;
-    }
-
-    .text {
-        display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 143%;
-    margin-left: 56%;
-    margin-right: 2%;
-    margin-top: 4%;
-    }
+  #head{
+      width:100%;
+  }
+  #ramadhan{
+      font-size: 4rem;
+  }
+.time{
+    width: 97%;
+    height: 110px;
+    font-size: 3.5rem;
+}
     audio{
         visibility: hidden;
     }
 }
 @media screen and (max-width:450px) {
-    .container {
-        width: 80%;
-        height: 0;
-        margin-top: 70%;
+    #ramadhan{
+        font-size: 3rem;
     }
-    #ramadhan {
-        font-size: 5rem;
+    #compte{
+        padding:1em 0;
     }
-    .timer {
-        width: 133%;
-        margin-left: 96%;
-        margin-right: 28%;
-        padding: 0 6% 0 13%;
+    .blocks{
+        width: 22%;
     }
-    #days, #hours, #mins, #secs {
-        height: 1.5em;
-        width: 1.5em;
+    .time{
         font-size: 2.5em;
-        text-align: center;
-        padding: 10%;
-        margin-left: 13%;
     }
-    .text {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 3em;
-        height: 1em;
-        margin-left: -117%;
-        margin-right: 13%;
-        margin-top: 3%;
-        padding-left: 3%;
-    }
-    .text p{
-        display: inline;
-        font-size: 2.2em;
-        padding-left: 29%;
-        margin-left: 125%;
+    .blocks p{
+        font-size: 1.6em;
     }
 audio{
     visibility: hidden;

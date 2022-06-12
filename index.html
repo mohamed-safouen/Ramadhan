@@ -1,39 +1,49 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="Ar">
+
 <head>
     <meta charset="utf-8">
     <title>Ramadhan</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
-<div class="container">
-    <header id="head">
-    <h2 id="ramadhan"></h2>
-    </header>
-    <section id="compte">
-    <div class="timer">
-        <div id="secs" class="time"></div>
-        <div id="mins" class="time"></div>
-        <div id="hours" class="time"></div>
-        <div id="days" class="time"></div>
+    <div class="container">
+        <header id="head">
+            <h2 id="ramadhan"></h2>
+        </header>
+        <section id="compte">
+            
+                <div class="blocks">
+                    <div id="secs" class="time"></div>
+                    <p>ثانية</p>
+                </div>
 
-    </div>
+                <div class="blocks">
+                    <div id="mins" class="time"></div>
+                    <p>دقيقة</p>
+                </div>
 
-    <div class="text">
-        <p>ثانية</p>
-        <p>دقيقة</p>
-        <p>ساعة</p>
-        <p>يوم</p>
+                <div class="blocks">
+                    <div id="hours" class="time"></div>
+                    <p>ساعة</p>
+                </div>
+
+                <div class="blocks">
+                    <div id="days" class="time"></div>
+                    <p>يوم</p>
+                </div>
+            
+        </section>
+        <div id="quran">
+            <audio controls autoplay loop>
+                <source src="media/ramadhan.mp3" type="audio/mpeg">
+            </audio>
+        </div>
     </div>
-    </section>
-    <div id="quran">
-    <audio controls autoplay loop>
-        <source src="media/ramadhan.mp3" type="audio/mpeg">
-    </audio>
-    </div>
-</div>
-<script type="text/javascript " src="script.js"></script>
+    <script type="text/javascript " src="script.js"></script>
 </body>
+
 </html>
