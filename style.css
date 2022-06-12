@@ -23,25 +23,21 @@ body {
     align-items: center;
     flex-direction: column;
 }
+header{
+    margin: 2.5rem 2rem;
+}
 #ramadhan {
     text-align: center;
     font-family: 'Noto Nastaliq Urdu', serif;
-    font-weight: 500;
     font-size: 7rem;
     letter-spacing: 5px;
-    word-spacing: 5px;
-    color: #bfe4f5;
-    animation:colorchange 10s ease-in 1s infinite ;
-    transition: transform 2s;
-    margin-top: 0.2%;
-    padding-top: 0;
-    padding-bottom: 90px;
+    color: #bfe4f5; 
 }
- @keyframes colorchange {
-     0% {color: #bfe4f5;}
-     50%{color: #ecf7ec; filter: brightness(800%) contrast(600%) drop-shadow(20px 20px 20px lightgray);
-         transform: scale(1.5);font-weight:1500}
- }
+#compte{
+    margin: 2em 1em;
+    padding: 1em 1em;
+    
+}
 .time {
     display: flex;
     flex-direction: row;
