@@ -9,10 +9,10 @@ html {
     max-height: fit-content;
 }
 body {
-    background-color:#15133C ;
-    background-size: cover;
-    background-attachment: fixed;
+    background:linear-gradient(to right,rgb(0 0 0 / .8), rgb(0 0 0 /0)), url("./media/lanterne-de-ramadhan.jpg");
     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     overflow-y: hidden;
     overflow-x: hidden;
 }
@@ -30,7 +30,7 @@ header{
     font-family: 'Noto Nastaliq Urdu', serif;
     font-size: 7rem;
     letter-spacing: 5px;
-    color: #F1EEE9; 
+    color: #e6d0a5; 
 }
 #compte{
     margin: 2em 0em;
@@ -52,12 +52,12 @@ header{
     padding-right: 20px;
     border: 1px solid #34364F;
     border-radius: 45px;
-    box-shadow: 5px 0 4.5px rgb(4 23 74);
+    box-shadow: 5px 0 4.5px rgb(174, 183, 208);
     font-size: 5rem;
-    color: #F1EEE9;
+    color: #ffffff;
     font-weight: bolder;
     font-family: Andalus, sans-serif;
-    background-color: #73777B;
+    background-color:  #dbbb77;
     height: 110px;
 }
 
