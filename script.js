@@ -1,5 +1,5 @@
 let ramadhan = new Date("mars 22, 2023 18:47:52").getTime();
-let hijri = 1444;
+let hijri = 1445;
  document.getElementById("ramadhan").innerHTML = "رمضان" + hijri;
 func = setInterval(function () {
     let now = new Date().getTime();
