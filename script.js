@@ -15,7 +15,7 @@ func = setInterval(function () {
        document.getElementById("secs").innerHTML = seconds + "";
     }
     else{
-       hijri++;
+       hijri += 1;
        ramadhan += 30585600000;
     }
 })
